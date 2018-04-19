@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1757B2002086F1E700A43E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B1FF2086F1E700A43E3E /* AppDelegate.swift */; };
-		1757B2022086F1E700A43E3E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B2012086F1E700A43E3E /* FirstViewController.swift */; };
-		1757B2042086F1E700A43E3E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B2032086F1E700A43E3E /* SecondViewController.swift */; };
+		1757B2022086F1E700A43E3E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B2012086F1E700A43E3E /* FeedVC.swift */; };
+		1757B2042086F1E700A43E3E /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B2032086F1E700A43E3E /* GroupsVC.swift */; };
 		1757B2072086F1E700A43E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1757B2052086F1E700A43E3E /* Main.storyboard */; };
 		1757B2092086F1E700A43E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1757B2082086F1E700A43E3E /* Assets.xcassets */; };
 		1757B20C2086F1E700A43E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1757B20A2086F1E700A43E3E /* LaunchScreen.storyboard */; };
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		1757B1FC2086F1E700A43E3E /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1757B1FF2086F1E700A43E3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1757B2012086F1E700A43E3E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1757B2032086F1E700A43E3E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1757B2012086F1E700A43E3E /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		1757B2032086F1E700A43E3E /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		1757B2062086F1E700A43E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1757B2082086F1E700A43E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1757B20B2086F1E700A43E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		1757B2132086F22D00A43E3E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1757B2012086F1E700A43E3E /* FirstViewController.swift */,
-				1757B2032086F1E700A43E3E /* SecondViewController.swift */,
+				1757B2012086F1E700A43E3E /* FeedVC.swift */,
+				1757B2032086F1E700A43E3E /* GroupsVC.swift */,
 				1757B21C2088129B00A43E3E /* AuthVC.swift */,
 				1757B21E208812AB00A43E3E /* LoginVC.swift */,
 			);
@@ -289,12 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1757B21D2088129B00A43E3E /* AuthVC.swift in Sources */,
-				1757B2042086F1E700A43E3E /* SecondViewController.swift in Sources */,
+				1757B2042086F1E700A43E3E /* GroupsVC.swift in Sources */,
 				1757B21F208812AB00A43E3E /* LoginVC.swift in Sources */,
 				1757B22520881D7700A43E3E /* AuthService.swift in Sources */,
 				1757B2002086F1E700A43E3E /* AppDelegate.swift in Sources */,
 				1757B223208818F500A43E3E /* ShadowView.swift in Sources */,
-				1757B2022086F1E700A43E3E /* FirstViewController.swift in Sources */,
+				1757B2022086F1E700A43E3E /* FeedVC.swift in Sources */,
 				1757B2212088134300A43E3E /* InsetTextField.swift in Sources */,
 				1757B21B2086F74F00A43E3E /* DataService.swift in Sources */,
 			);
