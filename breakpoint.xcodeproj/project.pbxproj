@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17462C4D208D929F002658A1 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17462C4C208D929E002658A1 /* Group.swift */; };
 		1757B2002086F1E700A43E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B1FF2086F1E700A43E3E /* AppDelegate.swift */; };
 		1757B2022086F1E700A43E3E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B2012086F1E700A43E3E /* FeedVC.swift */; };
 		1757B2042086F1E700A43E3E /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757B2032086F1E700A43E3E /* GroupsVC.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17462C4C208D929E002658A1 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		1757B1FC2086F1E700A43E3E /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1757B1FF2086F1E700A43E3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1757B2012086F1E700A43E3E /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1757B22E208AA07B00A43E3E /* Message.swift */,
+				17462C4C208D929E002658A1 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				1757B21F208812AB00A43E3E /* LoginVC.swift in Sources */,
 				1757B22520881D7700A43E3E /* AuthService.swift in Sources */,
 				1757B231208AB71F00A43E3E /* CreateGroupsVC.swift in Sources */,
+				17462C4D208D929F002658A1 /* Group.swift in Sources */,
 				1757B233208ABABF00A43E3E /* UserCell.swift in Sources */,
 				1757B2002086F1E700A43E3E /* AppDelegate.swift in Sources */,
 				1757B223208818F500A43E3E /* ShadowView.swift in Sources */,
