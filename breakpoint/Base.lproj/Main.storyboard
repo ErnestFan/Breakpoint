@@ -435,12 +435,11 @@
                                 <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="NNK-cE-3XG">
-                                <rect key="frame" x="0.0" y="138" width="375" height="529.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="NNK-cE-3XG">
+                                <rect key="frame" x="0.0" y="130" width="375" height="537"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Gv-MV-caS">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="469.5"/>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Gv-MV-caS">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="477"/>
                                         <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="lRu-A2-Xfp" customClass="GroupFeedCell" customModule="breakpoint" customModuleProvider="target">
@@ -496,17 +495,17 @@
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="idf-J5-Fyw">
-                                        <rect key="frame" x="0.0" y="469.5" width="375" height="60"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="idf-J5-Fyw">
+                                        <rect key="frame" x="0.0" y="477" width="375" height="60"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="send a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hiE-Bj-vA0" customClass="InsetTextField" customModule="breakpoint" customModuleProvider="target">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="send a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hiE-Bj-vA0" customClass="InsetTextField" customModule="breakpoint" customModuleProvider="target">
                                                 <rect key="frame" x="15" y="15" width="307" height="30"/>
                                                 <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSZ-F7-Ow3">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSZ-F7-Ow3">
                                                 <rect key="frame" x="330" y="15" width="30" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="DbJ-ek-7FD"/>
@@ -535,10 +534,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="NNK-cE-3XG" firstAttribute="top" secondItem="7bW-7z-9a7" secondAttribute="bottom" id="3e3-Mv-H82"/>
+                            <constraint firstAttribute="bottom" secondItem="NNK-cE-3XG" secondAttribute="bottom" id="Scu-xk-aH9"/>
+                            <constraint firstItem="NNK-cE-3XG" firstAttribute="trailing" secondItem="9DC-WL-9Kv" secondAttribute="trailing" id="TvH-dQ-fQ4"/>
                             <constraint firstItem="v55-8K-PZy" firstAttribute="leading" secondItem="9DC-WL-9Kv" secondAttribute="leading" id="Zjm-5D-AVu"/>
                             <constraint firstItem="7bW-7z-9a7" firstAttribute="leading" secondItem="9DC-WL-9Kv" secondAttribute="leading" constant="8" id="cSl-U1-owX"/>
                             <constraint firstItem="v55-8K-PZy" firstAttribute="top" secondItem="9DC-WL-9Kv" secondAttribute="top" id="ezr-Mw-TL9"/>
                             <constraint firstItem="7bW-7z-9a7" firstAttribute="top" secondItem="v55-8K-PZy" secondAttribute="bottom" id="ggJ-a1-TZJ"/>
+                            <constraint firstItem="NNK-cE-3XG" firstAttribute="leading" secondItem="9DC-WL-9Kv" secondAttribute="leading" id="ia8-FZ-hIh"/>
                             <constraint firstAttribute="trailing" secondItem="v55-8K-PZy" secondAttribute="trailing" id="sqH-Sb-S6r"/>
                             <constraint firstItem="9DC-WL-9Kv" firstAttribute="trailing" secondItem="7bW-7z-9a7" secondAttribute="trailing" constant="8" id="zXH-H0-hK1"/>
                         </constraints>
