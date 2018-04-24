@@ -17,7 +17,7 @@ class GroupFeedVC: UIViewController {
     @IBOutlet weak var sendBtnView: UIView!
     @IBOutlet weak var messageTextField: InsetTextField!
     @IBOutlet weak var sendBtn: UIButton!
-    @IBOutlet weak var stackView: UIStackView!
+    @IBOutlet var mainView: UIView!
     
     var group: Group?
     var groupMessages = [Message]()
@@ -28,7 +28,7 @@ class GroupFeedVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        stackView.bindToKeyboard()
+        view.bindToKeyboard()
         tableView.delegate = self
         tableView.dataSource = self
     }
@@ -72,7 +72,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
 }
 
