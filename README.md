@@ -1,7 +1,7 @@
 # Breakpoint
 A real-time social app using Firebase and Swift 4.
 
-###Features
+### Features
 <ul>
 <li>Register and login with email. (Google and Facebook Sign-In to be implemented)<br/></li>
 <li>Create real-time posts.<br/></li>
