@@ -39,6 +39,8 @@ class DataService {
         REF_USERS.child(uid).updateChildValues(userData)
     }
     
+    
+    
     func getUsername(forUID uid: String, handler: @escaping (_ username: String) -> ()) {
         REF_USERS.observeSingleEvent(of: .value) { (userSnapshot) in
             guard let userSnapshot = userSnapshot.children.allObjects as? [DataSnapshot] else { return }
