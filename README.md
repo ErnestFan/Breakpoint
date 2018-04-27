@@ -23,4 +23,19 @@ Used Firebase to authorize users and communicate with database.
 
 ### Screenshots
 
-<img src="" width="200">
+#### Authorization
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Auth1.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Auth2.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Auth3.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Auth4.png?raw=true" width="200">
+
+#### Creating new post
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Post1.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Post2.png?raw=true" width="200">
+
+#### Creating groups and messaging in groups
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Group1.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Group2.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Group3.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Group4.png?raw=true" width="200">
+<img src="https://github.com/ErnestFan/Breakpoint/blob/master/Screenshots/Group5.png?raw=true" width="200">
